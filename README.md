@@ -25,11 +25,19 @@ python -m venv venv
 ```
 pip install -r requirements.txt
 ```
+Перейдем в директорию проекта:
+```
+cd weather_forecast
+```
 
 Запускаем локальный сервер:
 ```
 python manage.py runserver
 ```
+
+## Добавление API ключей:
+
+В файле config.py можно заменить API ключи для Яндекс погоды и OpenWeatherMap. Получить их бесплатно можно, обратившись к соответствующим сервисам
 
 ## Как обращаться к API:
 
